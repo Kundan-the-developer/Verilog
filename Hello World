@@ -1,0 +1,144 @@
+# Day 1 - Hello World
+
+Learn how to write your first Verilog program.
+
+---
+
+# What is Hello World in Verilog?
+
+Unlike C or Python, Verilog is a Hardware Description Language (HDL).  
+To print text in the simulator console, we use the `$display` system task inside an `initial` block.
+
+---
+
+# Verilog Code
+
+```verilog
+module hello_world;
+
+initial begin
+    $display("Hello World!");
+end
+
+endmodule
+```
+
+---
+
+# Code Explanation
+
+### module hello_world;
+
+Defines a hardware module named **hello_world**.
+
+### initial
+
+The statements inside the `initial` block execute only **once** at the start of simulation.
+
+### $display
+
+Prints text to the simulator console.
+
+### endmodule
+
+Marks the end of the module.
+
+---
+
+# Output
+
+```
+Hello World!
+```
+
+---
+
+# Source File
+
+```text
+hello_world.v
+```
+
+---
+
+# Screenshot 1 - Source Code
+
+<img src="images/source_code.png" width="800">
+
+---
+
+# Screenshot 2 - Simulation Output
+
+<img src="images/output.png" width="800">
+
+---
+
+# Folder Structure
+
+```
+01-Hello-World
+│
+├── hello_world.v
+├── README.md
+│
+└── images
+    ├── source_code.png
+    └── output.png
+```
+
+---
+
+# Interview Questions
+
+## Q1. What is Verilog?
+
+**Answer**
+
+Verilog is a Hardware Description Language (HDL) used to describe, design, and verify digital circuits.
+
+---
+
+## Q2. What is the purpose of the initial block?
+
+**Answer**
+
+The `initial` block executes only once when simulation starts.
+
+---
+
+## Q3. What does `$display` do?
+
+**Answer**
+
+`$display` prints text or variable values to the simulator console.
+
+---
+
+## Q4. Can an initial block be synthesized?
+
+**Answer**
+
+No.
+
+The `initial` block is mainly used for simulation and testbenches.
+
+---
+
+# hello_world.v
+
+```verilog
+module hello_world;
+
+initial
+begin
+    $display("Hello World!");
+end
+
+endmodule
+```
+
+---
+
+⭐ **Next Topic**
+
+➡️ Module and Ports

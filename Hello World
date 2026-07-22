@@ -1,14 +1,15 @@
-# Day 1 - Hello World
+# Hello World
 
+```verilog
+module hello_world;
 
+initial begin
+    $display("Hello World!");
+end
 
-# Screenshot 1 - Source Code
+endmodule
+```
 
-<img src="images/source_code.png" width="800">
+## Simulation Screenshot
 
----
-
-# Screenshot 2 - Simulation Output
-
-<img src="images/output.png" width="800">
-
+(Ab yahan image drag & drop kar do)

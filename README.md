@@ -1,9 +1,23 @@
 <h1>Verilog BAsiCs</h1>
 
  
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<h2>What is Verilog</h2>
+Verilog is a Hardware Description Language (HDL) used to describe, design, model, and verify digital electronic circuits. It allows engineers to represent hardware behavior and structure using code before implementing it on an FPGA or ASIC.
 <br />
+<h3>Syllabus</h2>
+Phase 1: Verilog Basics (Days 1–10)
+Hello World
+Module and Ports
+Data Types (wire, reg)
+Operators
+Continuous Assignment (assign)
+Procedural Blocks (always, initial)
+If-Else
+Case Statement
+Tasks and Functions
+Parameterized Modules
+<br />
+
 
 
 <h2>Languages and Utilities Used</h2>
